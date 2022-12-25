@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/jobName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/jobCity"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@+id/jobName"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="60sp"
+        android:text="city"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/jobPaymentFrom"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/jobCity"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:text="from"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/jobPaymentTo"
+        android:layout_width="154dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/jobCity"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="379dp"
+        android:text="to"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/jobCity"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="59dp"
+        android:text="type" />
+
+</RelativeLayout>
